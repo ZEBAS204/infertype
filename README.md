@@ -4,12 +4,13 @@
 
 This is a Rust command-line application that wraps infer cargo, a utility to check the file type using the magic number signature. The application makes it easy to test the [infer crate](https://docs.rs/infer/latest/infer/) without integrating it into your application.
 
-
 ## Usage
 
-**Note** you don't need to have Rust installed on your device to use this CLI.
+> **Note**
+> You do not need to have Rust installed on your device to use this CLI.
 
-To use it, simply run the binary with the `check` command and provide the path(s) to the file you want to check. For example:
+[Download the latest binary](https://github.com/ZEBAS204/infertype/releases/latest/download/infertype.exe).
+To use it, simply run `infertype.exe` with the `check` command and provide the path(s) to the file you want to check. For example:
 
 ```console
 $ infertype.exe check infertype.exe README.md
